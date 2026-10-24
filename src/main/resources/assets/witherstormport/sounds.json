@@ -1,0 +1,81 @@
+{
+  "mob.ws.idle": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_idle1",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_idle2",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_idle3",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_idle4",
+        "attenuation_distance": 100
+      }
+    ],
+    "subtitle": "subtitles.witherstormport.wither_storm"
+  },
+  "mob.ws.hurt": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_hurt1",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_hurt2",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_hurt3",
+        "attenuation_distance": 100
+      },
+      {
+        "name": "witherstormport:ws_hurt4",
+        "attenuation_distance": 100
+      }
+    ],
+    "subtitle": "subtitles.witherstormport.wither_storm"
+  },
+  "mob.ws.death": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_death",
+        "attenuation_distance": 100
+      }
+    ],
+    "subtitle": "subtitles.witherstormport.wither_storm"
+  },
+  "mob.ws.finished": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_spawn2",
+        "attenuation_distance": 100,
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.witherstormport.wither_storm"
+  },
+  "mob.ws.bgm": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_spawn1",
+        "attenuation_distance": 100,
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.witherstormport.wither_storm"
+  },
+  "mob.ws.music": {
+    "sounds": [
+      {
+        "name": "witherstormport:ws_music",
+        "stream": true
+      }
+    ]
+  }
+}

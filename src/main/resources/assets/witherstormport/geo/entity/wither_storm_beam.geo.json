@@ -1,0 +1,122 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.wither_storm_beam",
+    "texture_width": 1024,
+    "texture_height": 128,
+    "visible_bounds_width": 31,
+    "visible_bounds_height": 8,
+    "visible_bounds_offset": [
+     0,
+     4,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "body0",
+     "pivot": [
+      0,
+      24,
+      0
+     ]
+    },
+    {
+     "name": "head_controller",
+     "pivot": [
+      0,
+      16.77,
+      2.5
+     ],
+     "parent": "body0"
+    },
+    {
+     "name": "head1v2",
+     "pivot": [
+      0,
+      16.77,
+      2.5
+     ],
+     "parent": "head_controller",
+     "cubes": [
+      {
+       "origin": [
+        -0.89,
+        28.11,
+        -17.7
+       ],
+       "size": [
+        3.78,
+        3.78,
+        -1024
+       ],
+       "uv": [
+        4,
+        322
+       ],
+       "inflate": 1
+      }
+     ]
+    },
+    {
+     "name": "head2v2",
+     "pivot": [
+      15,
+      13.77,
+      2.5
+     ],
+     "parent": "head_controller",
+     "cubes": [
+      {
+       "origin": [
+        30.11,
+        25.11,
+        -17.7
+       ],
+       "size": [
+        3.78,
+        3.78,
+        -1024
+       ],
+       "uv": [
+        4,
+        322
+       ],
+       "inflate": 1
+      }
+     ]
+    },
+    {
+     "name": "head3v2",
+     "pivot": [
+      -16,
+      8.77,
+      2.5
+     ],
+     "parent": "head_controller",
+     "cubes": [
+      {
+       "origin": [
+        -31.89,
+        20.11,
+        -17.7
+       ],
+       "size": [
+        3.78,
+        3.78,
+        -1024
+       ],
+       "uv": [
+        4,
+        322
+       ],
+       "inflate": 1
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+# Valores de referencia para o gradle.properties do MDK (mantenha os demais itens do seu arquivo)
+mod_id=witherstormport
+mod_name=Wither Storm Port
+mod_license=All Rights Reserved
+mod_version=1.0.0
+mod_group_id=com.witherstorm.witherstormport
+mod_authors=SeuNome
+mod_description=Port Forge do addon Bedrock SW Wither Storm
