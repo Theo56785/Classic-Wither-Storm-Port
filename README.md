@@ -52,3 +52,5 @@ Package `com.witherstorm.witherstormport` · ModID `witherstormport`.
 3. Stay in **Spectator** mode more than 20 blocks away to observe (anything else nearby will die).
 
 original addon by: 鸥吃鱼
+
+recried by claude IA
