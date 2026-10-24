@@ -50,3 +50,5 @@ Package `com.witherstorm.witherstormport` · ModID `witherstormport`.
    For quick testing, reduce the values in `config/witherstormport-common.toml`.
 2. After `transformAtSeconds` → final form; heads, tentacles, and beam appear in approximately 4 seconds, with looping music.
 3. Stay in **Spectator** mode more than 20 blocks away to observe (anything else nearby will die).
+
+original addon by: 鸥吃鱼
