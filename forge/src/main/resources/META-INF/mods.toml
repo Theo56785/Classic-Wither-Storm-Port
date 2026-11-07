@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "witherstormport"
+version = "${version}"
+displayName = "Wither Storm Port"
+description = '''
+Port multi-loader (Forge/Fabric/Quilt) do addon Bedrock "SW Wither Storm" (ET/UnryCN), versao Remake.
+'''
+
+[[dependencies.witherstormport]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.witherstormport]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.witherstormport]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[4.4.9,5)"
+ordering = "AFTER"
+side = "BOTH"

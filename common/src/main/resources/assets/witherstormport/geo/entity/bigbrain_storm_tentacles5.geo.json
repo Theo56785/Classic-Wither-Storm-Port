@@ -1,0 +1,482 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.bigbrain_storm_tentacles5",
+    "texture_width": 1024,
+    "texture_height": 1024,
+    "visible_bounds_width": 62,
+    "visible_bounds_height": 4,
+    "visible_bounds_offset": [
+     0,
+     -2,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "Body0v4",
+     "pivot": [
+      -15,
+      -4,
+      14
+     ],
+     "rotation": [
+      0,
+      80,
+      -5
+     ]
+    },
+    {
+     "name": "tentaclesv4",
+     "pivot": [
+      -15,
+      -4,
+      14
+     ],
+     "parent": "Body0v4",
+     "cubes": [
+      {
+       "origin": [
+        -47,
+        2,
+        3
+       ],
+       "size": [
+        11,
+        12,
+        19
+       ],
+       "uv": [
+        355,
+        236
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part1v4",
+     "pivot": [
+      -15,
+      -4,
+      6
+     ],
+     "parent": "tentaclesv4",
+     "cubes": [
+      {
+       "origin": [
+        -49,
+        2,
+        -19
+       ],
+       "size": [
+        13,
+        12,
+        36
+       ],
+       "uv": [
+        313,
+        131
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part2v4",
+     "pivot": [
+      -15,
+      -4,
+      -11
+     ],
+     "parent": "part1v4",
+     "cubes": [
+      {
+       "origin": [
+        -50,
+        2,
+        -37
+       ],
+       "size": [
+        14,
+        12,
+        36
+       ],
+       "uv": [
+        265,
+        96
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part3v4",
+     "pivot": [
+      -15,
+      -4,
+      -29
+     ],
+     "parent": "part2v4",
+     "cubes": [
+      {
+       "origin": [
+        -51,
+        2,
+        -56
+       ],
+       "size": [
+        15,
+        13,
+        36
+       ],
+       "uv": [
+        233,
+        76
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part4v4",
+     "pivot": [
+      -15,
+      -8,
+      -48
+     ],
+     "parent": "part3v4",
+     "cubes": [
+      {
+       "origin": [
+        -56,
+        2,
+        -76
+       ],
+       "size": [
+        20,
+        21,
+        36
+       ],
+       "uv": [
+        268,
+        128
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part5v4",
+     "pivot": [
+      -15,
+      -8,
+      -68
+     ],
+     "parent": "part4v4",
+     "cubes": [
+      {
+       "origin": [
+        -55,
+        2,
+        -97
+       ],
+       "size": [
+        19,
+        20,
+        36
+       ],
+       "uv": [
+        352,
+        134
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part6v4",
+     "pivot": [
+      -15,
+      -8,
+      -89
+     ],
+     "parent": "part5v4",
+     "cubes": [
+      {
+       "origin": [
+        -54,
+        2,
+        -119
+       ],
+       "size": [
+        18,
+        19,
+        36
+       ],
+       "uv": [
+        294,
+        137
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part7v4",
+     "pivot": [
+      -15,
+      -8,
+      -111
+     ],
+     "parent": "part6v4",
+     "cubes": [
+      {
+       "origin": [
+        -53,
+        2,
+        -142
+       ],
+       "size": [
+        17,
+        18,
+        36
+       ],
+       "uv": [
+        316,
+        156
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part8v4",
+     "pivot": [
+      -15,
+      -8,
+      -134
+     ],
+     "parent": "part7v4",
+     "cubes": [
+      {
+       "origin": [
+        -52,
+        2,
+        -166
+       ],
+       "size": [
+        16,
+        17,
+        36
+       ],
+       "uv": [
+        348,
+        166
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part9v4",
+     "pivot": [
+      -15,
+      -8,
+      -158
+     ],
+     "parent": "part8v4",
+     "cubes": [
+      {
+       "origin": [
+        -51,
+        2,
+        -191
+       ],
+       "size": [
+        15,
+        16,
+        36
+       ],
+       "uv": [
+        336,
+        89
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part10v4",
+     "pivot": [
+      -15,
+      -8,
+      -183
+     ],
+     "parent": "part9v4",
+     "cubes": [
+      {
+       "origin": [
+        -50,
+        2,
+        -217
+       ],
+       "size": [
+        14,
+        15,
+        36
+       ],
+       "uv": [
+        294,
+        44
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part11v4",
+     "pivot": [
+      -15,
+      -8,
+      -209
+     ],
+     "parent": "part10v4",
+     "cubes": [
+      {
+       "origin": [
+        -49,
+        2,
+        -244
+       ],
+       "size": [
+        13,
+        14,
+        36
+       ],
+       "uv": [
+        377,
+        41
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part12v4",
+     "pivot": [
+      -15,
+      -8,
+      -236
+     ],
+     "parent": "part11v4",
+     "cubes": [
+      {
+       "origin": [
+        -48,
+        2,
+        -288
+       ],
+       "size": [
+        12,
+        13,
+        52
+       ],
+       "uv": [
+        326,
+        60
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part13v4",
+     "pivot": [
+      -15,
+      -8,
+      -264
+     ],
+     "parent": "part12v4",
+     "cubes": [
+      {
+       "origin": [
+        -47,
+        2,
+        -321
+       ],
+       "size": [
+        11,
+        12,
+        56
+       ],
+       "uv": [
+        387,
+        102
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part14v4",
+     "pivot": [
+      -15,
+      -8,
+      -293
+     ],
+     "parent": "part13v4",
+     "cubes": [
+      {
+       "origin": [
+        -46,
+        2,
+        -346
+       ],
+       "size": [
+        10,
+        10,
+        51
+       ],
+       "uv": [
+        393,
+        83
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part15v4",
+     "pivot": [
+      -15,
+      -8,
+      -323
+     ],
+     "parent": "part14v4",
+     "cubes": [
+      {
+       "origin": [
+        -39,
+        2,
+        -456
+       ],
+       "size": [
+        3,
+        3,
+        74
+       ],
+       "uv": [
+        297,
+        73
+       ]
+      },
+      {
+       "origin": [
+        -43,
+        2,
+        -400
+       ],
+       "size": [
+        7,
+        7,
+        74
+       ],
+       "uv": [
+        406,
+        70
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "entity.minecraft_storymode.wither_storm1": "§d凋灵风暴",
+  "entity.minecraft_storymode.wither_storm2": "§d凋灵风暴",
+  "entity.minecraft_storymode.severed_witherstorm": "§4断首凋灵风暴",
+  "entity.minecraft_storymode.bigbrain_witherstorm": "§d凋灵风暴",
+  "entity.minecraft_storymode.bigbrain_witherstorm2": "§d凋灵风暴",
+  "entity.minecraft_storymode.witherstorm_dead": "§d凋灵风暴",
+  "entity.minecraft_storymode.tractor": "牵引碎块",
+  "entity.minecraft_storymode.tractor0": "牵引生成器",
+  "entity.minecraft_storymode.witherstorm_skull": "凋灵风暴头颅"
+}

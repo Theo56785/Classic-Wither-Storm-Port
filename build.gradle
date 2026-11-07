@@ -1,0 +1,55 @@
+plugins {
+    id "architectury-plugin" version "3.4-SNAPSHOT"
+    id "dev.architectury.loom" version "1.7-SNAPSHOT" apply false
+}
+
+architectury {
+    minecraft = rootProject.minecraft_version
+}
+
+subprojects {
+    apply plugin: "dev.architectury.loom"
+
+    def loom = project.extensions.getByName("loom")
+    dependencies {
+        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+        // Mappings oficiais da Mojang (os mesmos nomes usados em todo o codigo do mod)
+        mappings loom.officialMojangMappings()
+    }
+}
+
+allprojects {
+    apply plugin: "java"
+    apply plugin: "architectury-plugin"
+
+    base {
+        archivesName = rootProject.archives_base_name
+    }
+    version = rootProject.mod_version
+    group = rootProject.maven_group
+
+    repositories {
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://maven.minecraftforge.net/" }
+        maven { url "https://maven.fabricmc.net/" }
+        maven {
+            name = "GeckoLib"
+            url = "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/"
+            // O mesmo repositorio tambem serve as dependencias transitivas do GeckoLib (mclib/molang)
+            content {
+                includeGroup "software.bernie.geckolib"
+                includeGroup "com.eliotlash.mclib"
+                includeGroup "com.eliotlash.molang"
+            }
+        }
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+        options.release = 17
+    }
+
+    java {
+        withSourcesJar()
+    }
+}

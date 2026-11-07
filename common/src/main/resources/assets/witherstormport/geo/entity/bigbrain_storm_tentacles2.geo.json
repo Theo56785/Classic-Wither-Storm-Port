@@ -1,0 +1,131 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.bigbrain_storm_tentacles2",
+    "texture_width": 1024,
+    "texture_height": 1024,
+    "visible_bounds_width": 59,
+    "visible_bounds_height": 12,
+    "visible_bounds_offset": [
+     0,
+     -7.5,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "Body0v4",
+     "pivot": [
+      -32,
+      -70,
+      41
+     ],
+     "rotation": [
+      -5,
+      80,
+      -115
+     ]
+    },
+    {
+     "name": "tentaclesv4",
+     "pivot": [
+      22.31804,
+      -101.3669,
+      71.05292
+     ],
+     "parent": "Body0v4",
+     "cubes": [
+      {
+       "origin": [
+        -7,
+        -128,
+        14.05292
+       ],
+       "size": [
+        11,
+        12,
+        56
+       ],
+       "uv": [
+        387,
+        102
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part5v4",
+     "pivot": [
+      22.31804,
+      -101.3669,
+      42.05292
+     ],
+     "parent": "tentaclesv4",
+     "cubes": [
+      {
+       "origin": [
+        -6,
+        -128,
+        -10.94708
+       ],
+       "size": [
+        10,
+        10,
+        51
+       ],
+       "uv": [
+        393,
+        83
+       ]
+      }
+     ]
+    },
+    {
+     "name": "part10v4",
+     "pivot": [
+      22.31804,
+      -101.3669,
+      12.05292
+     ],
+     "parent": "part5v4",
+     "cubes": [
+      {
+       "origin": [
+        1,
+        -128,
+        -120.94708
+       ],
+       "size": [
+        3,
+        3,
+        74
+       ],
+       "uv": [
+        297,
+        73
+       ]
+      },
+      {
+       "origin": [
+        -3,
+        -128,
+        -64.94708
+       ],
+       "size": [
+        7,
+        7,
+        74
+       ],
+       "uv": [
+        406,
+        70
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

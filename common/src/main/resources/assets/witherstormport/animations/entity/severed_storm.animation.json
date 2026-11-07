@@ -1,0 +1,67 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.wither_storm.block3": {
+   "loop": true,
+   "animation_length": 1,
+   "bones": {
+    "bonev3": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "1.0": [
+       0,
+       360,
+       0
+      ]
+     }
+    },
+    "bone2v3": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "1.0": [
+       0,
+       -180,
+       0
+      ]
+     }
+    },
+    "bone3v3": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "1.0": [
+       0,
+       90,
+       0
+      ]
+     }
+    },
+    "bone4v3": {
+     "rotation": {
+      "0.0": [
+       0,
+       0,
+       0
+      ],
+      "1.0": [
+       0,
+       -90,
+       0
+      ]
+     }
+    }
+   }
+  }
+ }
+}

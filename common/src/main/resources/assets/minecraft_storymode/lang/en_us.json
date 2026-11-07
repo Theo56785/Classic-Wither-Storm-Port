@@ -1,0 +1,11 @@
+{
+  "entity.minecraft_storymode.wither_storm1": "§dWither Storm",
+  "entity.minecraft_storymode.wither_storm2": "§dWither Storm",
+  "entity.minecraft_storymode.severed_witherstorm": "§4Severed Wither Storm",
+  "entity.minecraft_storymode.bigbrain_witherstorm": "§dWither Storm",
+  "entity.minecraft_storymode.bigbrain_witherstorm2": "§dWither Storm",
+  "entity.minecraft_storymode.witherstorm_dead": "§dWither Storm",
+  "entity.minecraft_storymode.tractor": "Tractor Debris",
+  "entity.minecraft_storymode.tractor0": "Tractor Spawner",
+  "entity.minecraft_storymode.witherstorm_skull": "Wither Storm Skull"
+}

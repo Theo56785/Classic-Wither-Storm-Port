@@ -1,0 +1,56 @@
+{
+ "format_version": "1.12.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.wither_storm_stage1_beam",
+    "texture_width": 1024,
+    "texture_height": 128,
+    "visible_bounds_width": 3,
+    "visible_bounds_height": 4,
+    "visible_bounds_offset": [
+     0,
+     2,
+     0
+    ]
+   },
+   "bones": [
+    {
+     "name": "head1",
+     "pivot": [
+      0,
+      21.5,
+      0
+     ]
+    },
+    {
+     "name": "beam1",
+     "pivot": [
+      0,
+      16.58,
+      2.5
+     ],
+     "parent": "head1",
+     "cubes": [
+      {
+       "origin": [
+        -1.06,
+        22.94,
+        -8.842
+       ],
+       "size": [
+        2.12,
+        2.12,
+        -1024
+       ],
+       "uv": [
+        0,
+        0
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "123",
+    "456",
+    "789"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "2": {
+      "item": "minecraft:dragon_head"
+    },
+    "3": {
+      "item": "minecraft:name_tag"
+    },
+    "4": {
+      "item": "minecraft:saddle"
+    },
+    "5": {
+      "item": "minecraft:dragon_egg"
+    },
+    "6": {
+      "item": "minecraft:nether_star"
+    },
+    "7": {
+      "item": "minecraft:end_crystal"
+    },
+    "8": {
+      "item": "minecraft:elytra"
+    },
+    "9": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:command_block"
+  }
+}
